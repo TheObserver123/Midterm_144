@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #181818;
+  background-position: center;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 100px;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.navbar a::before {
+  content:'';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #e31e00;
+  transition: 0.3s;
+}
+
+.navbar a:hover::before {
+  width: 100%;
+}
+
+.footer {
+  background-color: black;
+  padding: 20px 100px;
+  width: 100%;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer ul li a {
+  position: relative;
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.footer ul li a::before {
+  content:'';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #e31e00;
+  transition: 0.3s;
+}
+
+.footer ul li a:hover::before {
+  width: 100%;
+}
+
+.wrapper {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #181818;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 350px;
+  margin: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.card span {
+  font-weight: bold;
+  color: #333;
+}
+
+.aboutcard {
+  width: 350px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff9a;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.aboutcard img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.aboutcard h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.aboutcard p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.aboutcard span {
+  font-weight: bold;
+  color: #333;
+}
+
+.aboutWrapper {
+  font-family: Arial, sans-serif;
+  margin-top: 40px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutHeader {
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff9a;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.backgroundItem {
+  background-image: url(./images/aboutbackground.jpg); 
+  padding:20px;
+  justify-content: center;
+  align-items: center;
+  min-height: 1000px;
+}
+
+.aboutHeaderWrapper {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerWrapper {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productPageBackground {
+  background-image: url(./images/scenic.jpg); 
+  padding:20px;
+  justify-content: center;
+  align-items: center;
+  min-height: 1000px;
+}
+
+.productPageHeader {
+  max-width: 700px;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff9a;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.credentialsWrapper {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.credentials {
+  max-width: 700px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.productPageBackground2 {
+  background-image: url(./images/scenic2.jpg); 
+  padding:20px;
+  justify-content: center;
+  align-items: center;
+  min-height: 1000px;
+}

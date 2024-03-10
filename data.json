@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "image": "./images/first_product.jpg",
+      "title": "Adobe Premier Pro complete tutorials",
+      "description": "Introducing the ultimate Adobe Premiere Pro tutorial package! From beginner basics to advanced techniques, this comprehensive product covers everything you need to know. Master the interface, editing tools, color correction, special effects, and more. Learn from industry experts and elevate your editing skills to professional levels. Unlock your creativity with Adobe Premiere Pro tutorials.",
+      "price": "99$/m"
+    },
+    {
+      "id": "2",
+      "image": "./images/product2.jpg",
+      "title": "Cinematography",
+      "description": "Unleash your cinematic potential with our tutorial product! From camera basics to advanced techniques, learn how to create captivating visuals for your films. Master composition, lighting, and color grading to bring your vision to life on screen. Elevate your cinematography skills today.",
+      "price": "99$/m"
+    },
+    {
+      "id": "3",
+      "image": "./images/bundle_product_3.webp",
+      "title": "EXCLUSIVE Premier Pro Presets bundle",
+      "description": "Get ready to level up your editing game with our Adobe Premiere Pro bundle, complete with dope LUTs and presets! Say goodbye to basic edits and hello to jaw-dropping visuals that'll make your content stand out from the crowd. Whether you're a seasoned pro or just starting out, our curated collection has got your back. It's time to bring the heat to your edits and unleash your creativity like never before!",
+      "price": "69$"
+    },
+    {
+      "id": "4",
+      "image": "./images/videoeffects.jpg",
+      "title": "Video Effects Course",
+      "description": "Video effects, or VFX, are vital to cinematic-quality videos. You may have heard about green screens and 'CGI', but what actually happens after the actor steps out from in front of it? What is the process by which visuals are developed, and how can you use VFX in your videos? Learn it from PRVisuals.",
+      "price": "$39.99"
+    },
+    {
+      "id": "5",
+      "image": "./images/soundeffects.jpg",
+      "title": "Sound Effects Course",
+      "description": "Sound effects, or SFX, are used in both high-quality productions like movies and in low-quality productions such as TikTok videos. Viewers, especially younger viewers, are drawn in by well-placed sound effects. They are used to enhance video content and maintain continuity throughout. In this course, you will learn how to use SFX to improve your video creations.",
+      "price": "$39.99"
+    },
+    {
+      "id": "6",
+      "image": "./images/bundle6.jpg",
+      "title": "VFX and SFX Assets Pack",
+      "description": "This is a bundle of VFX and SFX assets that are ready to use. Some of them are shown in the VFX and SFX courses, so you get a sneak peak at the improvements these assets can bring to your video content.",
+      "price": "$19.99"
+    }
+  ],
+  "authors": [
+    {
+      "id": "101",
+      "image": "./images/ryan.jpg",
+      "name": "Ryan Johnson",
+      "email": "rjjohns7@iastate.edu"
+    },
+    {
+      "id": "102",
+      "image": "./images/prashanth.jpg",
+      "name": "Prashanth Kambalapally",
+      "email": "kambala@iastate.edu"
+    }
+  ]
+}
